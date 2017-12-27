@@ -1,0 +1,26 @@
+<mat-toolbar class="mat-elevation-z5">
+    <span class="title-blog fas fa-code"></span>
+    <nav id="navbar">
+        <ul>
+            <li>
+                <a class="nav-link" routerLink="inicio">INICIO</a>
+            </li>
+            <li>
+                <a class="nav-link" routerLink="cursos">CURSOS</a>
+            </li>
+            <li>
+                <a class="nav-link" routerLink="sobre-mi">SOBRE MÍ</a>
+            </li>
+            <li>
+                <a class="nav-link" routerLink="contactame">CONTÁCTAME</a>
+            </li>
+        </ul>
+    </nav>
+</mat-toolbar>
+
+<nav mat-tab-nav-bar id="navbar-responsive">
+    <a mat-tab-link routerLink="inicio" routerLinkActive #av1="routerLinkActive" [active]="av1.isActive">Inicio</a>
+    <a mat-tab-link routerLink="cursos" routerLinkActive #av2="routerLinkActive" [active]="av2.isActive">Cursos</a>
+    <a mat-tab-link routerLink="sobre-mi" routerLinkActive #av3="routerLinkActive" [active]="av3.isActive">Sobre mi</a>
+    <a mat-tab-link routerLink="contactame" routerLinkActive #av4="routerLinkActive" [active]="av4.isActive">Contáctame</a>
+</nav>

@@ -1,0 +1,63 @@
+.header-image{
+    background-image: url('/assets/img/profile.jpg');
+    background-size: cover;
+}
+
+
+.img-profile{
+    border: solid #ffffff;
+    border-radius: 100%;
+    margin: 10px auto;
+    display: block;
+}
+
+.icons-social{
+    display: inline-block;
+}
+
+.all-icons-social{
+    width: 500px;
+}
+
+.item-about{
+    padding: 5px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.title-about{
+    font-size: 18px;
+    text-align: left;
+}
+
+.card-cols{
+    margin-top: 1em;
+    margin-left: .1em;
+    margin-right:  .1em;
+}
+.articulos{
+    background-color: #fff; 
+    padding: 20px;
+    margin-bottom: 10em;
+}
+
+.title-main-article{
+    font-size: 20px;
+}
+
+.title-article{
+    margin-top: 0%;
+    top: -6px;
+}
+
+.card{
+    margin-bottom: 1em;
+}
+
+.fab{
+    margin: 10px;
+}
+
+.icon{
+    font-size: 25px;
+}

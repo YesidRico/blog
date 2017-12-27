@@ -1,0 +1,52 @@
+.mat-toolbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    height: 50px;
+    background-color: #1976D2;
+    color: #FFFFFF;
+}
+
+.title-blog{
+    font-size: 35px;
+}
+
+nav>ul>li{
+    list-style-type: none;
+    padding: 10px;
+    display: inline;
+}
+
+.nav-link{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+}
+
+#navbar-responsive{
+    display: none;
+}
+
+#navbar{
+    display: initial;
+}
+
+@media (max-width: 768px){
+    #navbar-responsive{
+        display: initial;
+    }
+    #navbar{
+        display: none;
+    }
+}
+
+.mat-tab-link{
+    padding: 20px;
+}
+
+.nav-link:hover{
+color: lightblue;
+}

@@ -1,0 +1,18 @@
+#footer{
+    clear: both;
+    position: relative;
+    z-index: -1;
+    bottom: 0;
+    padding: 20px;
+    background-color: gray;
+    color: #ffffff;
+    line-height: 0px;
+}
+
+nav>ul>li{
+    display: inline;
+}
+
+nav>ul>li>a{
+    padding: 10px;
+}

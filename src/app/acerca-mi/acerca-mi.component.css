@@ -1,0 +1,30 @@
+.banner{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 1em;
+    margin-bottom: 5em;
+    text-align: center;
+    background-color:#FFFFFF;
+}
+
+.about{
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+
+.my-profesion{
+    margin-top: 0%;
+    font-size: 13px;
+}
+.content{
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 15px;
+    text-align: left;
+}
+
+.img-post{
+    width: 100%;
+    background-image: url('/assets/img/senasoft.jpg');
+    background-size: cover;
+}

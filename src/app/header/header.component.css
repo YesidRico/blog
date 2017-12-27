@@ -9,6 +9,10 @@
     color: #FFFFFF;
 }
 
+.link-login{
+    flex: 1 1 auto;
+}
+
 .title-blog{
     font-size: 35px;
 }

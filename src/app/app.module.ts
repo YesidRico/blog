@@ -13,6 +13,9 @@ import { HeaderComponent } from './header/header.component';
 import {AppRoutingModule} from './app-routing/app-routing.module';
 import { CursosComponent } from './cursos/cursos.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { AcercaMiComponent } from './acerca-mi/acerca-mi.component';
+import { CardPromocionalComponent } from './card-promocional/card-promocional.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -22,7 +25,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HeaderComponent,
     CardPresentationComponent,
     CursosComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    AcercaMiComponent,
+    CardPromocionalComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
